@@ -1,0 +1,48 @@
+.benefits__wrapper {
+    font-family: "Montserrat";
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.top-card { grid-area: top-card; }
+.medium-card { grid-area: medium-card; }
+.bottom-card { grid-area: bottom-card; }
+
+
+.benefits__items {
+    font-size: 20px;
+    @media (min-width: 980px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 30px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "top-card medium-card"
+            "bottom-card bottom-card";
+    }
+
+}
+
+.card__icon {
+    margin-bottom: 20px;
+}
+
+.card__title {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card__info {
+    line-height: 1.5;
+}
+
+.benefits__title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    font-size: 42px;
+    margin-bottom: 40px;
+}

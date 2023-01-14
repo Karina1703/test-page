@@ -1,0 +1,37 @@
+.footer {
+  background-color: #2e1b3e;
+  padding: 20px 0;
+  min-height: 100px;
+  width: 100%;
+}
+.footer div, .footer a {
+  color: #fcacba;
+}
+.footer img {
+  margin-right: 10px;
+}
+
+@media (min-width: 980px) {
+  .footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+
+.phone {
+  margin-bottom: 10px;
+}
+@media (min-width: 980px) {
+  .phone {
+    margin-bottom: 0;
+  }
+}
+
+.phone, .address {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}/*# sourceMappingURL=footer.css.map */

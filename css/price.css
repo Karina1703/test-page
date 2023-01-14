@@ -1,0 +1,14 @@
+.price {
+  margin-bottom: 50px;
+}
+@media (min-width: 980px) {
+  .price {
+    padding: 20px 0;
+  }
+}
+
+.price-img {
+  background: url(../img/price.jpg) center no-repeat;
+  background-size: contain;
+  height: 80vh;
+}/*# sourceMappingURL=price.css.map */

@@ -1,0 +1,21 @@
+html *{
+    font-family: "Tenor Sans";
+    color: #2e1b3e;
+}
+
+body {
+    background-color: #FDD5E4;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    padding: 0 30px;
+}
+ @media (min-width: 980px) {
+    .wrapper  {
+        padding: 0 120px;
+    }
+}

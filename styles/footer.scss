@@ -1,0 +1,36 @@
+.footer {
+    background-color: #2e1b3e;
+    padding: 20px 0;
+    min-height: 100px;
+    width: 100%;
+    div, a{
+        color: #fcacba;
+    }
+
+    img {
+        margin-right: 10px;
+    }
+}
+
+.footer__wrapper{
+    @media (min-width: 980px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 800px;
+        margin: 0 auto;
+    }
+}
+.phone {
+    margin-bottom: 10px;
+    @media (min-width: 980px) {
+       margin-bottom: 0;
+    }
+}
+
+.phone, .address{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
